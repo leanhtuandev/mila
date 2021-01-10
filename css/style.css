@@ -6,6 +6,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #1B2D59 ;
+
 }
 ul li {
     list-style: none;
@@ -78,12 +79,14 @@ ul.col-md-8.item-navbar {
     background-repeat: no-repeat;
     z-index: 0;
 }
-
+.col-md-12.title-img img {
+    width: 80%;
+    height: auto;
+}
 .col-md-12.title-img {
     margin-top: 270px;
     text-align: center;
-    width: 1031px;
-    height: 272px;
+    width: 100%;
 }
 .try-for_free {
     width: 100%;
@@ -139,10 +142,10 @@ ul.col-md-8.item-navbar {
     font-size: 48px;
     margin: 0;
     text-transform: uppercase;
-    line-height: 49px;
+    line-height: 60px;
 }
 .title-feature h3 {
-    padding-top: 32px;
+    padding-top: 0;
     letter-spacing: 2px;
     font-style: normal;
     font-weight: 700;
@@ -152,6 +155,7 @@ ul.col-md-8.item-navbar {
     padding-right: 65px;
     margin-bottom: 0;
     padding-bottom: 67px;
+    line-height: 60px;
 }
 .spindle {
     width: 100%;
@@ -164,7 +168,7 @@ ul.col-md-8.item-navbar {
 
 /* translation_assistance */
 #translation-assistance {
-    padding-top: 193.41px;
+    padding-top: 53px;
     padding-left: 150px;
     padding-right: 140px;
 }
@@ -185,6 +189,7 @@ ul.col-md-8.item-navbar {
     max-width: 630px;
     text-transform: uppercase;
     margin-bottom: 57px;
+    line-height: 60px;
 }
 
 .translation-assistance_content div h5 {
@@ -303,7 +308,7 @@ ul.col-md-8.item-navbar {
 
 #feed-back .title-feed_back {
     font-weight: 600;
-    font-size: 64px;
+    font-size: 48px;
     color: white;
     margin-top: 181px;
     text-align: center;
@@ -471,7 +476,7 @@ div#buy-now {
     font-size: 23px;
     margin: 0;
     color: #1B2D59;
-    font-weight: medium ;
+    font-weight: bold ;
 }
 .last {
     border-radius: 0 0 17px 17px;
@@ -481,17 +486,17 @@ div#buy-now {
     background-color: #E3E8EA;
 }
 .price-version:first-child {
-    margin-top: 78px;
+    margin-top: 70px;
 }
 .price-version {
     display: flex;
     justify-content: space-between;
-    padding: 23px 44px;
+    padding: 23.5px 44px;
     border: 1px solid;
     margin-left: 48px;
     margin-right: 68px;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 31px;
     border-radius: 15px;
     border: 2px solid #1B2D59;
 }
@@ -676,8 +681,6 @@ button.btn-form:first-child {
     font-weight: normal;
     font-size: 24px;
     line-height: 18px;
-    /* identical to box height, or 75% */
-
     letter-spacing: 1px;
 
     color: #5DBC69;
