@@ -111,6 +111,7 @@ ul.col-md-8.item-navbar {
 .try-for_free button:hover {
     background-color: #5ABE80;
     color: white;
+
 }
 
 /* mockup */
@@ -699,12 +700,15 @@ button.btn-form:first-child {
 }
 /* effect */
 .col-md-12.title-img {
-    animation: fadeInRight 1.5s;
+    animation: bounce 1.5s;
 }
 
 .try-for_free button {
-    animation: spin 1.5s;
+    animation: bounce 1.5s;
 }
+/* .col-md-12.mockup-img img:hover {
+    animation: bounce 1.5s;
+} */
 
 #navbar {
     animation: Opacity 1.5s;
@@ -757,6 +761,15 @@ button.btn-form:first-child {
         transform: rotate(0deg);
     }
 }
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    to { opacity: 1 }
+}
+
 @keyframes fadeInRight {
     from {
         opacity: 0;
@@ -773,10 +786,19 @@ button.btn-form:first-child {
     to { opacity: 1 }
 }
 
+
 @keyframes Opacity {
     from {
         opacity: 0;
     }
     to { opacity: 1 }
 }
-
+@keyframes bounce {
+    0%   { transform: scale(1,1)    translateY(0);opacity: 0; }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1) translateY(-100px); }
+    50%  { transform: scale(1,1)    translateY(0); }
+    57%  { transform: scale(1,1)    translateY(-7px); }
+    64%  { transform: scale(1,1)    translateY(0); }
+    100% { transform: scale(1,1)    translateY(0); opacity: 1; }
+}

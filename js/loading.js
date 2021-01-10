@@ -23,4 +23,6 @@ function onReady(callback) {
     setVisible('#map', true);
     setVisible('#footer', true);
     setVisible('#loading', false);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0; 
   });
