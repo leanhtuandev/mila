@@ -165,7 +165,9 @@ ul.col-md-8.item-navbar {
     padding: 0 101px 0 175px;
     width: 100%;
 }
-
+.version-basic div p {
+    font-weight: bold !important;
+}
 /* translation_assistance */
 #translation-assistance {
     padding-top: 53px;

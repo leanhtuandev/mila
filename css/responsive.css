@@ -98,6 +98,15 @@
     #google-map {
         height: 374px;
     }
+    .content-wrapper p {
+        font-size: 24px;
+    }
+    .translation-assistance_content div h3 {
+        line-height: 36px;
+    }
+    .translation-assistance_content div h5 {
+        line-height: 28px;
+    }
 }
 @media screen and (max-width: 1395px ) {
     .col-md-12.mockup-img img {
@@ -170,6 +179,9 @@
     }
     .table {
         text-align: center;
+    }
+    .translation-assistance_content div h3 {
+        margin-bottom: 0;
     }
     
 }
@@ -470,6 +482,7 @@
         line-height: 17px;
         text-align: center;
         margin: 0;
+        
     }
     .trial-content {
         padding-top: 0 !important;
@@ -710,7 +723,7 @@
 
     #buy-now .version .version-basic p {
         font-style: normal;
-        font-weight: 500;
+        font-weight: bold;
         font-size: 7px;
         line-height: 14px;
         padding-left: 0;
@@ -747,6 +760,7 @@
         color: #1B2D59;
         padding-left: 25px;
         display: grid;
+        line-height: 21px;
     }
 
     #buy-now .version .price-version span {
@@ -979,8 +993,9 @@
     }
     .trial-content h5 {
         color: white;
-        font-size: 32px;
-        font-weight: 700;
+        font-size: 24px;
+        margin: 0;
+        line-height: 28px;
     }
     .trial-content button {
         color: #5ABE80;
@@ -1030,6 +1045,7 @@
         font-weight: 800;
         text-transform: uppercase;
         padding-bottom: 0;
+        line-height: 36px;
     }
     .service h5 {
         margin-top: 50px;
@@ -1037,6 +1053,7 @@
     }
     .row.bn-content p {
         font-size: 24px;
+        line-height: 28px;
     }
     .btn-buy button:first-child {
         margin-right: 0;
