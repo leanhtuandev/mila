@@ -587,6 +587,9 @@ input.phone {
     background-color: #EDEDED;
     margin-top: 64px;
 }
+textarea.message:focus {
+    outline: none;
+}
 textarea.message {
     width: 100%;
     font-style: normal;
