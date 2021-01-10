@@ -699,13 +699,83 @@ button.btn-form:first-child {
 }
 /* effect */
 .col-md-12.title-img {
-    animation: fadeInBottom 1.5s;
+    animation: fadeInRight 1.5s;
 }
 
-@keyframes fadeInBottom {
+.try-for_free button {
+    animation: spin 1.5s;
+}
+
+#navbar {
+    animation: Opacity 1.5s;
+}
+
+#banner {
+    animation: Opacity 1.5s;
+}
+
+#mockup {
+    animation: Opacity 1.5s;
+}
+
+#feature {
+    animation: Opacity 1.5s;
+}
+
+#translation-assistance {
+    animation: Opacity 1.5s;
+}
+#feed-back {
+    animation: Opacity 1.5s;
+}
+
+#buy-now {
+    animation: Opacity 1.5s;
+}
+
+#contact{
+    animation: Opacity 1.5s;
+}
+
+#map{
+    animation: Opacity 1.5s;
+}
+#footer {
+    animation: Opacity 1.5s;
+}
+#loading {
+    animation: Opacity 1.5s ease-in;
+}
+
+@keyframes spin {
+    from {
+        transform: scale(0.4);
+        transform: rotate(900deg) ;
+    }
+    to {
+        transform: scale(1);
+        transform: rotate(0deg);
+    }
+}
+@keyframes fadeInRight {
     from {
         opacity: 0;
-        transform: translateY(50%);
+        transform: translateX(50%);
+    }
+    to { opacity: 1 }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    to { opacity: 1 }
+}
+
+@keyframes Opacity {
+    from {
+        opacity: 0;
     }
     to { opacity: 1 }
 }
