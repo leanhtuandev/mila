@@ -11,10 +11,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <script src="js/loading.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="loading">
+        <div id="lds-hourglass"></div>
+    </div>
+
     <div id="navbar" class="container-fluid">
         <div class="row">
             <div class="logo col-md-4 col-4 justify-content-start">
@@ -388,15 +394,6 @@
         </div>
     </div>
 </body>
-<script>  
-    function initMap() {  
-    var mapOptions = {  
-        center: new google.maps.LatLng(21.5946867, 105.8344904,17),  
-        zoom: 20,
-        mapTypeId: google.maps.MapTypeId.terrain   
-    } 
-    var map = new google.maps.Map(document.getElementById("google-map"), mapOptions);  
-    } 
-    </script>  
-     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyir_fe4abJU_3GFHf4Wkxly2jXSjxo-0&callback=initMap" type="text/javascript"></script>
+    <script src="js/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyir_fe4abJU_3GFHf4Wkxly2jXSjxo-0&callback=initMap" type="text/javascript"></script>
 </html>
