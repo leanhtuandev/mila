@@ -59,6 +59,9 @@
         justify-content: flex-end !important;
         align-items: center;
     }
+    .star {
+        font-size: 28px;
+    }
 }
 
 @media screen and (max-width: 1395px ) {
