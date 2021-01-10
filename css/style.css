@@ -95,7 +95,7 @@ ul.col-md-8.item-navbar {
 .try-for_free button {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.169231px;
     color: #5ABE80;
@@ -137,7 +137,7 @@ ul.col-md-8.item-navbar {
 .title-feature h2 {
     font-family: "Montserrat";
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 48px;
     margin: 0;
     text-transform: uppercase;
@@ -185,7 +185,7 @@ ul.col-md-8.item-navbar {
 }
 .translation-assistance_content div h3 {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 48px;
     max-width: 630px;
     text-transform: uppercase;
@@ -257,7 +257,7 @@ ul.col-md-8.item-navbar {
 
 .companion-content h5 {
     color: white;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 48px;
     margin-top: 216px;
     margin-bottom: 100px;
@@ -308,7 +308,7 @@ ul.col-md-8.item-navbar {
 }
 
 #feed-back .title-feed_back {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 48px;
     color: white;
     margin-top: 181px;
@@ -340,6 +340,10 @@ ul.col-md-8.item-navbar {
     width: 100%;
     margin: 0;
 }
+.list-card .card-wrapper p {
+    font-size: 18px;
+    line-height: 27px;
+}
 p {
     margin-top: 0;
     margin-bottom: 0;
@@ -347,11 +351,12 @@ p {
 
 p.work {
     padding-bottom: 100px;
+    font-weight: 700;
 }
 
 #feed-back .card-wrapper p.name {
     padding-top: 30px;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 div#buy-now {
@@ -366,7 +371,7 @@ div#buy-now {
 
 .row.bn-content h5 {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 48px;
     line-height: 60px;
     text-transform: uppercase;
@@ -510,6 +515,7 @@ div#buy-now {
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0.1px;
+    color: #1B2D59;
 }
 .price-version p span {
     font-style: normal;
