@@ -5,7 +5,7 @@ function onReady(callback) {
         window.clearInterval(intervalId);
         callback.call(this);
       }
-    }, 3000);
+    }, 1000);
   }
   
   function setVisible(selector, visible) {
@@ -26,3 +26,5 @@ function onReady(callback) {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0; 
   });
+
+  
