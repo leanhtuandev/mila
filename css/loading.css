@@ -1,4 +1,4 @@
-html {
+/* html {
   height: 100%;
 }
 body {
@@ -32,8 +32,11 @@ body {
 #buy-now{
     display: none;
 }
-#contact{
+#content{
     display: none;
+}
+#develope {
+  display: none;
 }
 #map{
     display: none;
@@ -72,4 +75,4 @@ body {
       transform: rotate(1800deg);
     }
   }
-
+ */
