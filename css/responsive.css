@@ -56,8 +56,9 @@
     .content-wrapper.dialog {
         padding-left: 0;
     }
-    .table .col-3 > div:first-child {
+    .table .col-3 > div{
         text-align: center;
+        margin: 0 auto;
     }
     .table .col-3 div .content-wrapper {
         display: inherit;
