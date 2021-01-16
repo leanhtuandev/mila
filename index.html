@@ -457,13 +457,16 @@
             window.scrollTo(0, 0);
             }
         window.addEventListener('load', AOS.refresh)
-         AOS.init();
-            // AOS.init({
-            // disable: function () {
-            //     var maxWidth = 1024;
-            //     return window.innerWidth < maxWidth;
-            // }
-            // });
+         AOS.init({
+             disable: 'mobile',
+             disable: 'tablet'
+         });
+            AOS.init({
+            disable: function () {
+                var maxWidth = 1024;
+                return window.innerWidth < maxWidth;
+            }
+            });
     </script>
     <script src="js/map.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyir_fe4abJU_3GFHf4Wkxly2jXSjxo-0&callback=initMap" type="text/javascript"></script>
